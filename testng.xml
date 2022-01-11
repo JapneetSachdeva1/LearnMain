@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/Eclipse_Workspace/QuickFramework_Alpha">
+        <classes>
+            <class name="pagetests.HomePageTest">
+                <methods>
+                    <include name="SignInClickTest"/>
+                </methods>
+            </class>
+            <class name="pagetests.LoginTest">
+                <methods>
+                    <include name="SignInTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
